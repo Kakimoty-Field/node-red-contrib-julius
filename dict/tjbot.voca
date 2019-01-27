@@ -1,0 +1,182 @@
+% 1
+TJBot	t i: j e i b o q t o
+% 2
+手を上げて	t e o a g e t e
+% 3
+手を下げて	t e o s a g e t e
+% 4
+手を振って	t e o f u q t e
+% 5
+手を上げないで	t e o a g e n a i d e
+% 6
+手を下げないで	t e o s a g e n a i d e
+% 7
+ライトをつけて	r a i t o o ts u k e t e
+% 8
+ライトを消して	r a i t o o k e sh i t e
+% 9
+LEDをつけて	e r u i: d i: o ts u k e t e
+% 10
+LEDを消して	e r u i: d i: o k e sh i t e
+% 11
+電気をつけて	d e N k i o ts u k e t e
+% 12
+電気を消して	d e N k i o k e sh i t e
+% 13
+エアコンをつけて	e a k o N o ts u k e t e
+% 14
+エアコンを消して	e a k o N o k e sh i t e
+% 15
+暖房をつけて	d a N b o u o ts u k e t e
+% 16
+暖房を消して	d a N b o u o k e sh i t e
+% 17
+冷房をつけて	r e i b o u o ts u k e t e
+% 18
+冷房を消して	r e i b o u o k e sh i t e
+% 19
+音量を上げて	o N ry o u o a g e t e
+% 20
+音量を下げて	o N ry o u o s a g e t e
+% 21
+音を大きく	o t o o o o k i k u
+% 22
+音を大きくして	o t o o o o k i k u sh i t e
+% 23
+音を小さく	o t o o ch i i s a k u
+% 24
+音を小さくして	o t o o ch i i s a k u sh i t e
+% 25
+声を大きく	k o e o o o k i k u
+% 26
+声を大きくして	k o e o o o k i k u sh i t e
+% 27
+声を小さく	k o e o ch i i s a k u
+% 28
+声を小さくして	k o e o ch i i s a k u sh i t e
+% 29
+テレビをつけて	t e r e b i o ts u k e t e
+% 30
+テレビを消して	t e r e b i o k e sh i t e
+% 31
+テレビを切って	t e r e b i o k i q t e
+% 32
+PCをつけて	p i: sh i: o ts u k e t e
+% 33
+PCを起動	p i: sh i: o k i d o u
+% 34
+PCを起動して	p i: sh i: o k i d o u sh i t e
+% 35
+PCを消して	p i: sh i: o k e sh i t e
+% 36
+PCを終了	p i: sh i: o sh u u ry o u
+% 37
+PCを終了して	p i: sh i: o sh u u ry o u sh i t e
+% 38
+PCをシャットダウン	p i: sh i: o sh a q t o d a u N
+% 39
+PCをシャットダウンして	p i: sh i: o sh a q t o d a u N sh i t e
+% 40
+電源を切って	d e N g e N o k i q t e
+% 41
+電源を落として	d e N g e N o o t o sh i t e
+% 42
+掃除をして	s o u j i o sh i t e
+% 43
+掃除機をかけて	s o u j i k i o k a k e t e
+% 44
+IPアドレス	a i p i: a d o r e s u
+% 45
+IPアドレスは	a i p i: a d o r e s u h a
+% 46
+IPアドレスを教えて	a i p i: a d o r e s u o o sh i e t e
+% 47
+何時	n a N j i
+% 48
+何時ですか	n a N j i d e s u k a
+% 49
+今何時	i m a n a N j i
+% 50
+今何時ですか	i m a n a N j i d e s u k a
+% 51
+今は何時	i m a w a n a N j i
+% 52
+今は何時ですか	i m a w a n a N j i d e s u k a
+% 53
+時刻を教えて	j i k o k u o o sh i e t e
+% 54
+時刻	j i k o k u
+% 55
+今の時刻	i m a n o j i k o k u
+% 56
+今の時刻を教えて	i m a n o j i k o k u o o sh i e t e
+% 57
+何日	n a N n i ch i
+% 58
+何日ですか	n a N n i ch i d e s u k a
+% 59
+今日は何日	ky o u h a n a N n i ch i
+% 60
+今日は何日ですか	ky o u h a n a N n i ch i d e s u k a
+% 61
+何日かを教えて	n a N n i ch i k a o o sh i e t e
+% 62
+今日は何日かを教えて	ky o u h a n a N n i ch i k a o o sh i e t e
+% 63
+何が見える	n a n i g a m i e r u
+% 64
+何が見えますか	n a n i g a m i e m a s u k a
+% 65
+天気	t e N k i
+% 66
+天気を教えて	t e N k i o o sh i e t e
+% 67
+天気は	t e N k i w a
+% 68
+今日の天気	ky o u n o t e N k i
+% 69
+今日の天気を教えて	ky o u n o t e N k i o o sh i e t e
+% 70
+今日の天気は	ky o u n o t e N k i w a
+% 71
+明日の天気	a sh i t a n o t e N k i
+% 72
+明日の天気を教えて	a sh i t a n o t e N k i o o sh i e t e
+% 73
+明日の天気は	a sh i t a n o t e N k i w a
+% 74
+ニュース	ny u: s u
+% 75
+ニュースを教えて	ny u: s u o o sh i e t e
+% 76
+今日のニュース	ky o u n o ny u: s u
+% 77
+今日のニュースを教えて	ky o u n o ny u: s u o o sh i e t e
+% 78
+今日のニュースは	ky o u n o ny u: s u w a
+% 79
+今日のニュースは何	ky o u n o ny u: s u w a n a n i
+% 80
+今日のニュースは何ですか	ky o u n o ny u: s u w a n a n i d e s u k a
+% 81
+おはよう	o h a y o u
+% 82
+おはようございます	o h a y o u g o z a i m a s u
+% 83
+こんにちは	k o N n i ch i w a
+% 84
+こんばんは	k o N b a N w a
+% 85
+さようなら	s a y o u n a r a
+% 86
+おやすみ	o y a s u m i
+% 87
+おやすみなさい	o y a s u m i n a s a i
+% 88
+ばいばい	b a i b a i
+% 89
+ただいま	t a d a i m a
+% NS_B
+[s]             silB
+% NS_E
+[/s]            silE
