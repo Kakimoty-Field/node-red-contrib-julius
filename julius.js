@@ -49,3 +49,12 @@ child.stdout.on('data', function (data) {
         }
     }
 });
+child.stderr.on('data', function (data) {
+    node.error('stderr: ' + data.toString());
+});
+child.on('close', function (code, signal) {
+    //node.error('close: ' + code + ', ' + signal);
+});
+child.on('error', function (code) {
+    node.error('error: ' + code);
+});
