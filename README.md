@@ -3,7 +3,7 @@ node-red-contrib-julius
 
 Node-RED node for julius
 
-操作コマンドの音声を認識するノードです。「TJボット」の音声を契機として10秒間、操作コマンドの音声を受け付けます(<a herf='https://github.com/zuhito/node-red-contrib-julius/blob/master/dict/tjbot.txt'>最新の操作コマンド一覧</a>)。
+操作コマンドの音声を認識するノードです。「TJボット」の音声を契機として10秒間、操作コマンドの音声を受け付けます([最新の操作コマンド一覧](https://github.com/zuhito/node-red-contrib-julius/blob/master/dict/tjbot.txt))。
 
 Install
 -------
