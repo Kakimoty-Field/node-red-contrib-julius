@@ -1,10 +1,10 @@
 {
   "name": "red-contrib-julius",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Node-RED node for julius",
   "main": "node.js",
   "scripts": {
-    "build": "wget https://osdn.net/dl/julius/dictation-kit-v4.4.zip; unzip dictation-kit-v4.4.zip; rm dictation-kit-v4.4.zip"
+    "build": "curl -L -O https://osdn.net/dl/julius/dictation-kit-v4.4.zip; unzip dictation-kit-v4.4.zip; rm dictation-kit-v4.4.zip"
   },
   "node-red": {
     "nodes": {
@@ -15,10 +15,6 @@
     "julius",
     "tjbot"
   ],
-  "devDependencies": {
-    "node-red": "0.18.7",
-    "node-red-node-test-helper": "0.1.8"
-  },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
