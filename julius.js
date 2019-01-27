@@ -13,7 +13,7 @@ var child = spawn(cmd, arg);
 child.stdout.on('data', function (data) {
     var matcher = data.toString().match(/^pass1_best: \[s\] (.+) \[\/s\]/);
     if (matcher) {
-        //node.error(matcher[0]);
+        console.log('pass1_best: ' + matcher[0]);
         node.status({
             fill: "blue",
             shape: "ring",

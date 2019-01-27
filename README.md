@@ -20,4 +20,5 @@ Install Julius to your computer (Only macOS and Raspberry Pi are supported)
 Run the following command in your Node-RED user directory - typically `~/.node-red`
 
         npm install node-red-contrib-julius
-
+        cd node_modules/node-red-contrib-julius
+        npm run build
