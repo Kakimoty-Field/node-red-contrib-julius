@@ -1,6 +1,6 @@
 {
   "name": "red-contrib-julius",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Node-RED node for julius",
   "main": "node.js",
   "scripts": {

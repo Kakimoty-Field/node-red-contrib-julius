@@ -6,24 +6,14 @@
 </script>
 
 <script type="text/x-red" data-help-name="julius">
-    <p>Summary of the node.</p>
-    <h3>Inputs</h3>
-    <dl class="message-properties">
-       <dt>payload<span class="property-type">object</span></dt>
-       <dd>Explanation of payload.</dd>
-       <dt class="optional">topic <span class="property-type">string</span></dt>
-       <dd>Explanation of topic.</dd>
-    </dl>
-    <h3>Outputs</h3>
+    <p>操作コマンドの音声を認識するノードです。「TJボット」の音声を契機として10秒間、操作コマンドの音声を受け付けます。</p>
+    <h3>詳細</h3>
     <dl class="message-properties">
         <dt>payload<span class="property-type">object</span></dt>
-        <dd>Explanation of payload.</dd>
-        <dt class="optional">topic<span class="property-type">string</span></dt>
-        <dd>Explanation of topic.</dd>
+        <dd>音声認識した文字列</dd>
     </dl>
-    <h3>Details</h3>
-    <p>Explanation of the details.</p>
-    <p><b>Note</b>: Note of the node.</p>
+    <h3>対応する操作コマンド</h3>
+    <p>こんにちは、さようなら、電気をつけて、電気を消して、今何時など(<a herf='https://github.com/zuhito/node-red-contrib-julius/blob/master/dict/tjbot.txt'>最新の操作コマンド一覧</a>)</p>
 </script>
 
 <script type="text/javascript">

@@ -50,11 +50,11 @@ child.stdout.on('data', function (data) {
     }
 });
 child.stderr.on('data', function (data) {
-    node.error('stderr: ' + data.toString());
+    console.log('stderr: ' + data.toString());
 });
 child.on('close', function (code, signal) {
-    //node.error('close: ' + code + ', ' + signal);
+    console.log('close: ' + code + ', ' + signal);
 });
 child.on('error', function (code) {
-    node.error('error: ' + code);
+    console.log('error: ' + code);
 });
