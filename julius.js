@@ -1,9 +1,5 @@
 // name: julius
 // outputs: 1
-var execSync = global.get('child_process').execSync;
-var result =  execSync('export ALSADEV="plughw:1,0"');
-console.log(result.toString());
-
 var spawn = global.get('child_process').spawn;
 var __dirname = global.get('__dirname');
 var arg = ['julius',
@@ -39,13 +35,22 @@ child.stderr.on('data', function (data) {
     console.log('stderr: ' + data.toString());
     if (data.toString() === '<<< please speak >>>') {
         var triggerTime = flow.get("triggerTime");
+        var id;
         if (triggerTime && triggerTime !== 0) {
             node.status({
                 fill:"blue",
                 shape: "dot",
                 text: "認識中"
             });
+            id = setTimeout(function() {
+                node.status({
+                    fill: "blue",
+                    shape: "ring",
+                    text: "「TJボット」と話しかけてください"
+                });
+            }, 10 * 1000);
         } else {
+            clearTimeout(id);
             node.status({
                 fill: "blue",
                 shape: "ring",
