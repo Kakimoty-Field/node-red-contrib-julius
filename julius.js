@@ -71,5 +71,10 @@ child.on('close', function (code, signal) {
 });
 
 child.on('error', function (code) {
+    node.status({
+        fill: "red",
+        shape: "ring",
+        text: 'error: ' + code
+    });
     console.log('error: ' + code);
 });
