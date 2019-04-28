@@ -11,6 +11,17 @@ var arg = ['julius',
 var cmd = arg.shift();
 var child = spawn(cmd, arg);
 
+setTimeout( function ()  
+{
+    console.log(' set Close EventHandler');
+    node.on('close', function ()
+    {
+        child.kill();
+        flow.set("triggerTime", 0);
+    });
+}, 1000);
+
+
 child.stdout.on('data', function (data) {
     var matcher = data.toString().match(/^pass1_best: \[s\] (.+) \[\/s\]/);
     if (matcher) {
